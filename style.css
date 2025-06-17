@@ -30,6 +30,7 @@ header {
 .header-left h1 {
   font-size: 1.5rem;
   white-space: normal;
+  max-width: 100%;
   overflow: hidden;
   word-break: break-word;
   margin: 0;
