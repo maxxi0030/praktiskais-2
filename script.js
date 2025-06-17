@@ -1,4 +1,4 @@
-// Temas
+// temas
 const btn = document.getElementById("theme-toggle");
 btn.onclick = () => {
   document.body.classList.toggle("dark");
@@ -15,6 +15,5 @@ hits++;
 localStorage.setItem("hits", hits);
 document.getElementById("hit-counter").textContent = hits;
 
-// Gads
+// gads
 document.getElementById("year").textContent = new Date().getFullYear();
-
